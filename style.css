@@ -185,7 +185,7 @@ input:focus {
    outline: none;
    background: linear-gradient(white, white) padding-box,
               linear-gradient(to right, hsl(249, 99%, 64%), hsl(278, 94%, 30%)) border-box;
-  border: 1.5px solid transparent;
+  border: 1.5px solid transparent !important;
 }
 
 /* Remove arrows on number input */
