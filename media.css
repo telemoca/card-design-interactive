@@ -1,0 +1,64 @@
+@media only screen and (max-width: 1100px) {
+   body {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+   }
+
+   .left-part.bg {
+      /* double classe pr + de poids que sur style.css */
+      height: 30vh;
+   }
+
+   #bg-left {
+      height: 100%;
+      object-fit: cover;
+      content: url("images/bg-main-mobile.png");
+   }
+
+   .front-card-cont {
+      position: fixed;
+      top: calc(30vh - 100px);
+      left: calc(50% - 30px);
+      transform: translateX(-50%) scale(0.7);
+      color: var(--Light-grayish-violet);
+      width: 370px;
+      z-index: 1;
+   }
+
+   .back-card-cont {
+      position: fixed;
+      top: calc(30vh - 200px);
+      left: calc(50% + 30px);
+      transform: translateX(-50%) scale(0.7);
+      color: var(--Light-grayish-violet);
+      width: 370px;
+   }
+
+   .form-cont {
+      display: flex;
+   }
+
+   .form-cont form {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      width: calc(200px + 30%);
+      max-width: 350px;
+      color: var(--Very-dark-violet);
+      font-size: 14px;
+   }
+
+   .success {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+      width: calc(200px + 30%);
+      max-width: 350px;
+   }
+
+   #btn-next {
+    width: 300px;
+ }
+}
